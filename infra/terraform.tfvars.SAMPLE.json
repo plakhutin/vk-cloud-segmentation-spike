@@ -1,0 +1,16 @@
+{
+  "region": "REPLACE_REGION",
+  "availability_zone": "REPLACE_AZ",
+  "image_id": "REPLACE_UBUNTU_22_04_IMAGE_ID",
+  "small_flavor_id": "REPLACE_FLAVOR_1VCPU_2GB_ID",
+  "large_flavor_id": "REPLACE_FLAVOR_2VCPU_4GB_ID",
+  "volume_type": "REPLACE_VOLUME_TYPE",
+  "external_network_id": "REPLACE_EXTERNAL_NETWORK_ID",
+  "floating_ip_pool": "REPLACE_FLOATING_IP_POOL_NAME",
+  "ssh_public_key": "REPLACE_PUBLIC_KEY",
+  "ssh_source_cidr": "192.0.2.0/24",
+  "management_cidr": "10.10.1.0/24",
+  "kubernetes_cidr": "10.10.2.0/24",
+  "database_cidr": "10.10.3.0/24",
+  "lb_backend_source_cidrs": ["192.0.2.128/25"]
+}

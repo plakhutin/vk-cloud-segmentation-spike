@@ -1,0 +1,14 @@
+kubeProxyReplacement: false
+routingMode: tunnel
+tunnelProtocol: vxlan
+ipam:
+  mode: kubernetes
+hubble:
+  enabled: true
+  relay:
+    enabled: false
+  ui:
+    enabled: false
+# kube-proxy may SNAT NodePort traffic to a node address; let CIDR rules select it.
+policyCIDRMatchMode:
+  - nodes
